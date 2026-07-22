@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f9;
+}
+
+.container {
+  width: 95%;
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+
+.dashboard {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.box {
+  flex: 1;
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.box h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.box p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #2563eb;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+
+
+button {
+  padding: 8px 14px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+
+
+.employee-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  margin-top: 15px;
+}
+
+
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.card h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.card p {
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+
